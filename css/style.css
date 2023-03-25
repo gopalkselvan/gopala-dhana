@@ -730,7 +730,7 @@
 	background: #f6f4f3;
 	height: 51px;
 	width: 45px;
-	left: 38%;
+	left: 30%;
 	top: 2%;
   }
   .white .triangle {
@@ -744,7 +744,7 @@
   .red {
 	position: absolute;
 	background: #ef2f3c;
-	left: 20%;
+	left: 18%;
 	top: 9%;
 	height: 39px;
 	width: 42px;
@@ -762,7 +762,7 @@
 	background: #276fbf;
 	height: 48px;
 	width: 48px;
-	left: 55%;
+	left: 60%;
 	top: 5%;
   }
   .blue .triangle {
