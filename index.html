@@ -17,7 +17,7 @@
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Dancing+Script&amp;display=swap'>
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    
   </head>
   <body>
     <!-- HIDDEN AUDIO START -->
@@ -84,25 +84,32 @@
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a class="navbar-brand" href="index.html">#GD </a>
         </div>
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a href="#intro">Intro</a>
-          </li>
-          <li>
-            <a href="#events">Events & Parties</a>
-          </li>
-          <li>
-            <a href="#gettingthere">Getting There</a>
-          </li>
-          <li>
-            <a href="#registry">Registry</a>
-          </li>
-          <li>
-            <a href="#streaming">Streaming</a>
-          </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#intro">Intro</a>
+            </li>
+            <li>
+              <a href="#events">Events & Parties</a>
+            </li>
+            <li>
+              <a href="#gettingthere">Getting There</a>
+            </li>
+            <li>
+              <a href="#registry">Registry</a>
+            </li>
+            <li>
+              <a href="#streaming">Streaming</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
     <!-- MENU END -->
@@ -227,15 +234,15 @@
           </div>
         </div>
         <div class="row">
-         <div class="col-sm-12 heading" data-scroll-reveal>
-           <div id="myvideo">
-            <iframe width="80%" height="315" src="https://www.youtube.com/embed/lccoC-rNw-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-           </div>
-           <div id="myvideocomingsoon">
-            <img width="80%" height="315" src="assets/img/youtube-video-coming-soon-image.jpg" class="img-responsive" alt="" />
-           </div>
-         </div>
-       </div>
+          <div class="col-sm-12 heading" data-scroll-reveal>
+            <!-- To change src url and uncomment myvideo and comment myvideocomingsoon
+           <div id="myvideo"><iframe width="80%" height="315" src="https://www.youtube.com/embed/lccoC-rNw-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+         -->
+            <div id="myvideocomingsoon">
+              <img width="80%" height="315" src="assets/img/youtube-video-coming-soon-image.jpg" class="img-responsive" alt="" />
+            </div>
+          </div>
+        </div>
         <p class="footer"> Can't wait to celebrate special moment of us with you! <br> Just a ping away for any queries: +91 9003191641 <span></span>
         </p>
         <p class="happiness">Join us in our happiness! <br>

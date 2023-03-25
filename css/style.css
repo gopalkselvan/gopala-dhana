@@ -337,7 +337,7 @@
   
   .sakura {
 	/* background: -webkit-linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));
-	  background: linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));*/
+		background: linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));*/
 	background: red;
 	pointer-events: none;
 	position: absolute;
@@ -351,6 +351,7 @@
   
   body {
 	font-family: Arial, Helvetica, Sans-serif;
+	font-display: swap;
   }
   
   img {
@@ -382,7 +383,7 @@
 	font-family: "Dancing Script", cursive;
 	font-weight: bold;
 	font-style: normal;
-	font-size: 80px;
+	font-size: 54px;
 	margin: 32px 0;
 	color: #674ea7;
   }
@@ -412,9 +413,9 @@
 	font-weight: 300;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	font-size: 26px;
+	font-size: 18px;
 	color: #27797b;
-	margin-top: 5px;
+	margin-top: 70px;
   }
   
   .title h4 {
@@ -617,7 +618,7 @@
   .blog-short {
 	background: #fff;
 	border-radius: 5px;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 	overflow: hidden;
 	padding-bottom: 20px;
   }
@@ -626,7 +627,7 @@
 	max-width: 100%;
 	height: auto;
 	margin-left: auto;
-  	margin-right: auto;
+	margin-right: auto;
   }
   .blog-short h5 {
 	margin-bottom: 10px;
@@ -658,8 +659,8 @@
 	position: relative;
 	margin: auto;
 	overflow: hidden;
-	width: 650px;
-	height: 480px;
+	width: 390px;
+	height: 288px;
   }
   
   .container {
@@ -674,7 +675,7 @@
 	font-family: "Lato", sans-serif;
 	text-align: center;
 	margin-top: 2em;
-	font-size: 1em;
+	font-size: 0.72em;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	color: #183059;
@@ -696,8 +697,8 @@
   .minutes,
   .seconds {
 	display: inline-block;
-	padding: 20px;
-	width: 100px;
+	padding: 0.72px;
+	width: 80px;
 	border-radius: 5px;
   }
   
@@ -721,19 +722,19 @@
   .numbers {
 	font-family: "Montserrat", sans-serif;
 	color: #183059;
-	font-size: 4em;
+	font-size: 2em;
   }
   
   .white {
 	position: absolute;
 	background: #f6f4f3;
-	height: 85px;
-	width: 75px;
-	left: 33%;
+	height: 51px;
+	width: 45px;
+	left: 38%;
 	top: 2%;
   }
   .white .triangle {
-	border-bottom: 14px solid #f6f4f3;
+	border-bottom: 8.4px solid #f6f4f3;
   }
   .white .string {
 	background: #f6f4f3;
@@ -743,13 +744,13 @@
   .red {
 	position: absolute;
 	background: #ef2f3c;
-	left: 18%;
+	left: 20%;
 	top: 9%;
-	height: 65px;
-	width: 70px;
+	height: 39px;
+	width: 42px;
   }
   .red .triangle {
-	border-bottom: 14px solid #ef2f3c;
+	border-bottom: 8.4px solid #ef2f3c;
   }
   .red .string {
 	background: #ef2f3c;
@@ -759,13 +760,13 @@
   .blue {
 	position: absolute;
 	background: #276fbf;
-	height: 80px;
-	width: 80px;
+	height: 48px;
+	width: 48px;
 	left: 55%;
 	top: 5%;
   }
   .blue .triangle {
-	border-bottom: 14px solid #276fbf;
+	border-bottom: 8.4px solid #276fbf;
   }
   .blue .string {
 	background: #276fbf;
@@ -780,8 +781,8 @@
   
   .eye {
 	position: absolute;
-	width: 7px;
-	height: 7px;
+	width: 4.2px;
+	height: 4.2px;
 	top: 40%;
 	left: 22%;
 	background: #000;
@@ -789,9 +790,9 @@
   }
   .eye:after {
 	content: "";
-	left: 35px;
-	width: 7px;
-	height: 7px;
+	left: 21px;
+	width: 4.2px;
+	height: 4.2px;
 	border-radius: 50%;
 	background: #000;
 	position: absolute;
@@ -799,15 +800,15 @@
   
   .mouth {
 	position: absolute;
-	top: 45%;
+	top: 53%;
 	left: 43%;
-	width: 7px;
-	height: 7px;
+	width: 4.2px;
+	height: 4.2px;
 	border-radius: 50%;
   }
   
   .happy {
-	border: 2px solid;
+	border: 1.2px solid;
 	border-color: transparent #000 #000 transparent;
 	transform: rotate(45deg);
   }
@@ -818,22 +819,22 @@
 	bottom: -10%;
 	width: 0;
 	height: 0;
-	border-left: 7px solid transparent;
-	border-right: 7px solid transparent;
+	border-left: 4.2px solid transparent;
+	border-right: 4.2px solid transparent;
   }
   
   .string {
 	position: absolute;
-	height: 70px;
+	height: 42px;
 	width: 1px;
-	left: 48%;
+	left: 46%;
 	top: 100%;
 	z-index: -99;
   }
   
   .star {
-	width: 20px;
-	height: 20px;
+	width: 12px;
+	height: 12px;
 	background: #f6f4f3;
 	-webkit-clip-path: polygon(
 	  50% 0%,
@@ -862,10 +863,10 @@
   }
   
   .star-red {
-	width: 30px;
-	height: 30px;
-	margin-left: 51px;
-	margin-top: -5px;
+	width: 18px;
+	height: 18px;
+	margin-left: 30.6px;
+	margin-top: -3px;
 	background: #ef2f3c;
 	-webkit-clip-path: polygon(
 	  50% 0%,
@@ -894,4 +895,10 @@
   }
   
   /* TIMER END */
+  #banner {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 915px;
+  }
   
