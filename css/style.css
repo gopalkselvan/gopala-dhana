@@ -1,21 +1,21 @@
 @-webkit-keyframes fall {
 	0% {
-	  opacity: 0.9;
+	  opacity: 0.6;
 	  top: 0;
 	}
 	100% {
-	  opacity: 0.2;
+	  opacity: 0.05;
 	  top: 100%;
 	}
   }
   
   @keyframes fall {
 	0% {
-	  opacity: 0.9;
+	  opacity: 0.6;
 	  top: 0;
 	}
 	100% {
-	  opacity: 0.2;
+	  opacity: 0.05;
 	  top: 100%;
 	}
   }
@@ -415,7 +415,7 @@
 	letter-spacing: 5px;
 	font-size: 18px;
 	color: #27797b;
-	margin-top: 70px;
+	margin-top: 40px;
   }
   
   .title h4 {
@@ -463,7 +463,7 @@
   }
   
   .title {
-	margin-bottom: 40px;
+	margin-bottom: 10px;
   }
   
   #time {
@@ -541,7 +541,7 @@
 	letter-spacing: 0pt;
   }
   
-  /* MENU START */
+  /* MENU STARTS */
   .navbar {
 	border-radius: 0;
 	text-transform: uppercase;
@@ -587,23 +587,10 @@
   .container-fluid {
 	width: 75%;
   }
-  /* MENU END */
+  /* MENU ENDS */
   
-  section {
-	padding: 80px 0;
-	width: 100%;
-  }
-  #footer {
-	width: 100%;
-	background-color: #93bcbd;
-	border-color: #93bcbd;
-  }
-  #footer div p {
-	width: 60%;
-    margin: auto;
-  }
-  
-  /* EVENT START */
+
+  /* EVENT STARTS */
   .heading span {
 	border: 0;
 	border-top: 1px solid #d6516d;
@@ -650,21 +637,16 @@
   h6 {
 	color: #d6516d;
   }
-  /* EVENT END */
+  /* EVENT ENDS */
   
-  footer {
-	background: #222;
-	padding: 30px 0;
-  }
-  
-  /* TIMER START */
+  /* TIMER STARTS */
   
   .timer-container {
 	position: relative;
 	margin: auto;
 	overflow: hidden;
 	width: 390px;
-	height: 288px;
+	height: 240px;
   }
   
   .container {
@@ -727,6 +709,10 @@
 	font-family: "Montserrat", sans-serif;
 	color: #183059;
 	font-size: 3em;
+  }
+
+  .units {
+	letter-spacing: 3px;
   }
   
   .white {
@@ -898,14 +884,9 @@
 	);
   }
   
-  /* TIMER END */
-  #banner {
-	position: relative;
-	overflow: hidden;
-	width: 100%;
-	height: 915px;
-  }
+  /* TIMER ENDS */
 
+  /* BOTTOM CONTROLS STARTS */
 .bottom_right {
 	overflow: hidden;
 	position: fixed;
@@ -921,6 +902,9 @@
     left: 0;
     margin: 0px 15px 15px 15px;
 }
+/* BOTTOM CONTROLS ENDS */
+
+/* ARROW STARTS */
 .down-arrow {
 	color: #fff;
 	font-size: 30px;
@@ -928,13 +912,53 @@
 	left: 50%;
 	transform: translateX(-50%);
 }
-.floating-arrow {
-	animation-name: floating-arrow;
+
+.floating-object {
+	animation-name: floating-object;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
 }
+
+@keyframes floating-object {
+	0% {
+	  margin-top: 0;
+	}
+	50% {
+	  margin-top: 20px;
+	}
+	100% {
+	  margin-top: 0;
+	}
+  }
+
+/* ARROW ENDS */
+
+
+section {
+	padding: 80px 0;
+	width: 100%;
+  }
+  #footer {
+	width: 100%;
+	background-color: #93bcbd;
+	border-color: #93bcbd;
+  }
+
+footer {
+	background: #222;
+	padding: 30px 0;
+}
+  
+
 #footer div p span.fa-heart {
 	color: #ff415c;
 	margin: 0 2px;
 }
+
+#banner {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 915px;
+  }

@@ -41,13 +41,13 @@ var x = setInterval(function() {
 
 	// Output the result in an element with id="timer"
 	document.getElementById("timer").innerHTML = "<div class=\"days\"> \
-    <div class=\"numbers\">" + days + "</div>days</div> \
+    <div class=\"numbers\">" + days + "</div><span class=\"units\">days</span></div> \
   <div class=\"hours\"> \
-    <div class=\"numbers\">" + hours + "</div>hours</div> \
+    <div class=\"numbers\">" + hours + "</div><span class=\"units\">hours</span></div> \
   <div class=\"minutes\"> \
-    <div class=\"numbers\">" + minutes + "</div>minutes</div> \
+    <div class=\"numbers\">" + minutes + "</div><span class=\"units\">minutes</span></div> \
   <div class=\"seconds\"> \
-    <div class=\"numbers\">" + seconds + "</div>seconds</div> \
+    <div class=\"numbers\">" + seconds + "</div><span class=\"units\">seconds</span></div> \
   </div>";
 
 	// If the count down is over, write some text 
