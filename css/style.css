@@ -595,8 +595,12 @@
   }
   #footer {
 	width: 100%;
-	background-color: #27797b;
-	border-color: #27797b;
+	background-color: #93bcbd;
+	border-color: #93bcbd;
+  }
+  #footer div p {
+	width: 60%;
+    margin: auto;
   }
   
   /* EVENT START */
@@ -901,4 +905,36 @@
 	width: 100%;
 	height: 915px;
   }
-  
+
+.bottom_right {
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 0px 15px 15px 15px;
+}
+.bottom_left {
+    overflow: hidden;
+    position: fixed;
+    text-align: right;
+    bottom: 0;
+    left: 0;
+    margin: 0px 15px 15px 15px;
+}
+.down-arrow {
+	color: #fff;
+	font-size: 30px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.floating-arrow {
+	animation-name: floating-arrow;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+#footer div p span.fa-heart {
+	color: #ff415c;
+	margin: 0 2px;
+}

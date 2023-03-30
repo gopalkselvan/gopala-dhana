@@ -21,10 +21,6 @@
 
 })(jQuery);
 
-$(document).on('click', function() {
-	document.getElementById("my_audio").paused ? document.getElementById("my_audio").play() : document.getElementById("my_audio").pause();
-});
-
 // Set the date we're counting down to
 var countDownDate = new Date("Jun 9, 2023 06:30:00").getTime();
 
