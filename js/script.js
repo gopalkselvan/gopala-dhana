@@ -17,6 +17,11 @@
 			}
 		});
 
+        $(".navbar-nav .item").on("click",function(){
+            $(".navbar-collapse").removeClass("in");
+            $(".navbar-toggle").addClass("collapsed");
+        });
+
 	})
 
 })(jQuery);

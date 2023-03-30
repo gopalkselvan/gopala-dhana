@@ -571,8 +571,9 @@
   }
   
   .navbar {
+	/* To check
 	background-color: #27797b;
-	border-color: #27797b;
+	border-color: #27797b; */
 	width: 100%;
   }
   
@@ -941,8 +942,11 @@ section {
   }
   #footer {
 	width: 100%;
+	/* To test
 	background-color: #93bcbd;
-	border-color: #93bcbd;
+	border-color: #93bcbd; */
+	background-color: #f8f8f8;
+    border-color: #e7e7e7;
   }
 
 footer {
@@ -965,3 +969,11 @@ footer {
   html {
 	scroll-behavior: smooth;
   }
+/* 
+  .home-page {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/assets/img/main-background.jpeg") no-repeat center center;
+	background-size: cover;
+	background-position: 50%;
+	height: 100vh;
+	min-height: 480px;
+} */
