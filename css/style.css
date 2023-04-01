@@ -567,9 +567,6 @@
   }
   
   .navbar {
-	/* To check
-	background-color: #27797b;
-	border-color: #27797b; */
 	width: 100%;
   }
   
@@ -586,7 +583,6 @@
   }
   /* MENU ENDS */
   
-
   /* EVENT STARTS */
   .heading span {
 	border: 0;
@@ -707,7 +703,7 @@
 	color: #183059;
 	font-size: 3em;
   }
-
+  
   .units {
 	letter-spacing: 3px;
   }
@@ -882,42 +878,42 @@
   }
   
   /* TIMER ENDS */
-
+  
   /* BOTTOM CONTROLS STARTS */
-.bottom_right {
+  .bottom_right {
 	overflow: hidden;
 	position: fixed;
 	bottom: 0;
 	right: 0;
 	margin: 0px 15px 15px 15px;
-}
-.bottom_left {
-    overflow: hidden;
-    position: fixed;
-    text-align: right;
-    bottom: 0;
-    left: 0;
-    margin: 0px 15px 15px 15px;
-}
-/* BOTTOM CONTROLS ENDS */
-
-/* ARROW STARTS */
-.down-arrow {
+  }
+  .bottom_left {
+	overflow: hidden;
+	position: fixed;
+	text-align: right;
+	bottom: 0;
+	left: 0;
+	margin: 0px 15px 15px 15px;
+  }
+  /* BOTTOM CONTROLS ENDS */
+  
+  /* ARROW STARTS */
+  .down-arrow {
 	color: #fff;
 	font-size: 30px;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-}
-
-.floating-object {
+  }
+  
+  .floating-object {
 	animation-name: floating-object;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
-}
-
-@keyframes floating-object {
+  }
+  
+  @keyframes floating-object {
 	0% {
 	  margin-top: 0;
 	}
@@ -928,32 +924,30 @@
 	  margin-top: 0;
 	}
   }
-
-/* ARROW ENDS */
-
-
-section {
+  
+  /* ARROW ENDS */
+  
+  section {
 	padding: 80px 0;
 	width: 100%;
   }
   #footer {
 	width: 100%;
 	background-color: #f8f8f8;
-    border-color: #e7e7e7;
+	border-color: #e7e7e7;
   }
-
-footer {
+  
+  footer {
 	background: #222;
 	padding: 30px 0;
-}
+  }
   
-
-#footer div p span.fa-heart {
+  #footer div p span.fa-heart {
 	color: #ff415c;
 	margin: 0 2px;
-}
-
-#banner {
+  }
+  
+  #banner {
 	position: relative;
 	overflow: hidden;
 	width: 100%;
@@ -962,11 +956,12 @@ footer {
   html {
 	scroll-behavior: smooth;
   }
-/* 
-  .home-page {
-	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/assets/img/main-background.jpeg") no-repeat center center;
-	background-size: cover;
-	background-position: 50%;
-	height: 100vh;
-	min-height: 480px;
-} */
+  /* 
+	.home-page {
+	  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/assets/img/main-background.jpeg") no-repeat center center;
+	  background-size: cover;
+	  background-position: 50%;
+	  height: 100vh;
+	  min-height: 480px;
+  } */
+  
