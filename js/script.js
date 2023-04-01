@@ -3,17 +3,17 @@
  */
 (function($) {
 	"use strict";
-	$('.sakura-falling').sakura();
+	$(".sakura-falling").sakura();
 
 	$(document).ready(function() {
 
 		$(window).scroll(function() {
 			if ($(this).scrollTop() > $(window).height()) {
-				$('.navbar').addClass('fixed');
-				$('body').css('padding-top', '97px');
+				$(".navbar").addClass("fixed");
+				$("body").css("padding-top", "97px");
 			} else {
-				$('.navbar').removeClass('fixed');
-				$('body').css('padding-top', '0');
+				$(".navbar").removeClass("fixed");
+				$("body").css("padding-top", "0");
 			}
 		});
 

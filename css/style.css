@@ -336,8 +336,6 @@
   }
   
   .sakura {
-	/* background: -webkit-linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));
-		background: linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));*/
 	background: red;
 	pointer-events: none;
 	position: absolute;
@@ -444,9 +442,7 @@
 	justify-content: center;
 	-webkit-align-items: center;
 	align-items: center;
-	/* padding: 20px; */
 	text-align: center;
-	/* min-height:100%; */
   }
   
   /** **/
@@ -942,9 +938,6 @@ section {
   }
   #footer {
 	width: 100%;
-	/* To test
-	background-color: #93bcbd;
-	border-color: #93bcbd; */
 	background-color: #f8f8f8;
     border-color: #e7e7e7;
   }
