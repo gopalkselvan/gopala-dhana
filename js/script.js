@@ -56,8 +56,8 @@ var x = setInterval(function() {
   </div>";
 
 	// If the count down is over, write some text 
-	if (distance < 0) {
-		clearInterval(x);
-		document.getElementById("timer").innerHTML = "Please bless the couple with a loving, strong, and long-lasting marriage filled with joy, understanding, and mutual respect.";
-	}
+	// if (distance < 0) {
+	// 	clearInterval(x);
+	// 	document.getElementById("timer").innerHTML = "Please bless the couple with a loving, strong, and long-lasting marriage filled with joy, understanding, and mutual respect.";
+	// }
 }, 1000);
